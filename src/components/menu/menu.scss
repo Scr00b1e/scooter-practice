@@ -1,0 +1,64 @@
+.menu {
+    width: 100%;
+    padding: 15px;
+
+    background: #323941;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+
+        &-item {
+            margin-right: 24px;
+            cursor: pointer;
+
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    &__contacts {
+        display: flex;
+        align-items: center;
+
+        .cart {
+            position: relative;
+            margin-right: 30px;
+
+            &__count {
+                position: absolute;
+                top: 0;
+                right: -5px;
+                z-index: 1;
+
+                font-size: 10px;
+                line-height: 12px;
+                color: #FFFFFF;
+
+                padding: 1px 4px;
+                border-radius: 15px;
+                background: #009EFF;
+            }
+        }
+
+        a {
+            margin-right: 10px;
+        }
+    }
+    &__number {
+        font-size: 18px;
+        line-height: 22px;
+        color: #fff;
+    }
+}

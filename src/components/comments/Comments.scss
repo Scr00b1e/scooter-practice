@@ -1,0 +1,30 @@
+.comments {
+    font-weight: 700;
+    font-size: 50px;
+    color: #323941;
+    text-align: center;
+
+    padding: 50px;
+
+
+    &__inner {
+        display: inline;
+        overflow: hidden;
+    }
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        margin-bottom: 20px;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        width: 275px;
+
+        background: #FFFFFF; border: 3.31293px solid #009EFF;
+    }
+}

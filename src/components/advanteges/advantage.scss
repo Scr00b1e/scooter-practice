@@ -1,0 +1,65 @@
+.advantage {
+    margin: 20px 0;
+
+    &__tabs {
+        display: flex;
+        
+        &-item {
+            display: flex;
+            align-items: center;
+            width: 292px;
+            padding: 10px 20px;
+            cursor: pointer;
+
+            img {
+                margin-right: 20px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 22px;
+                color: #999999;
+            }
+
+            &.active {
+                background: #009EFF;
+
+                p {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    &__content {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        
+        background: rgba(153, 153, 153, 0.08);
+        padding: 10px 20px;
+
+        &.active {
+            display: flex;
+        }
+    }
+    &__words {
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 1;
+            text-transform: uppercase;
+            color: #323941;
+
+            margin-bottom: 10px;
+        }
+        p {
+            max-width: 530px;
+            font-size: 18px;
+            color: #323941;
+        }
+    }
+}

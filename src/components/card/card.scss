@@ -1,0 +1,43 @@
+.card {
+    width: 295px;
+    height: 370px;
+
+    margin: 50px 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+        margin-bottom: 20px;
+    }
+    &__img {
+        position: absolute;
+        z-index: 1;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 25px;
+        color: #323941;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        text-align: center;
+        font-size: 13px;
+        color: #999999;
+    }
+    &__price {
+        font-size: 18px;
+        color: #323941;
+
+        margin-bottom: 15px;
+    }
+}

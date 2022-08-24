@@ -1,0 +1,29 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.home {
+
+    &__title {
+        margin-top: 60px;
+
+        font-weight: 700;
+        font-size: 50px;
+        color: #323941;
+        text-align: center;
+    }
+    &__card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

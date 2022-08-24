@@ -1,0 +1,41 @@
+.cart {
+    margin: 30px 0;
+
+    &__top {
+        margin-top: 25px;
+    }
+    &__title {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    &__delete {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        cursor: pointer;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 24px;
+        font-weight: 700;
+
+        margin-bottom: 20px;
+    }
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

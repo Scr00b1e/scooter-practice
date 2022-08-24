@@ -1,0 +1,32 @@
+.notFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 25px 0;
+
+    &__words {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 500px;
+        height: 500px;
+
+        margin: 0 0 25px;
+        text-align: center;
+
+        background: #848383;
+        border-radius: 30px;
+
+        h1 {
+            font-size: 44px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 36px;
+        }
+    }
+}

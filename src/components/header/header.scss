@@ -1,0 +1,39 @@
+.header {
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-img {
+            margin-right: 15px;
+        }
+    }
+    &__words {
+        text-align: start;
+    }
+    h1 {
+        font-weight: 700;
+        //font-size: 13px;
+        line-height: 119.3%;
+        color: #323941;
+        text-transform: uppercase;
+    }
+    a {
+        display: flex;
+        flex-direction: column;
+
+        font-weight: 400;
+        //font-size: 13px;
+        line-height: 119.3%;
+
+        text-decoration-line: underline;
+        text-transform: lowercase;
+        color: #009EFF;
+    }
+}

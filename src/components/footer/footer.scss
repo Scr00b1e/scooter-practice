@@ -1,0 +1,26 @@
+.footer {
+    background: #32393F;
+    padding: 20px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__words {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text {
+        margin-right: 40px;
+
+        font-weight: 400;
+        font-size: 13px;
+        color: #FFFFFF;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

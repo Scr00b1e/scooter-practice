@@ -1,0 +1,58 @@
+.instruction {
+    background: #F5F5F5;
+
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__inner {
+        display: flex;
+        align-items: center;
+
+        position: relative;
+        margin: 90px 0;
+        padding: 0 30px;
+
+        height: 317px;
+        width: 960px;
+
+        background: #FFFFFF;
+        border: 5px solid #009EFF;
+    }
+    &__content {
+        margin-left: 400px;
+    }
+    &__img {
+        position: absolute;
+        top: -30px;
+        left: -200px;
+    }
+    &__title {
+        width: 0;
+
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 1.4;
+        color: #323941;
+        text-transform: uppercase;
+    }
+    &__words {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                margin-left: 5px;
+                font-size: 16px;
+                color: #323941;
+            }
+        }
+    }
+}

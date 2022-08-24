@@ -1,0 +1,111 @@
+.intro {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+
+    &__words {
+        width: 50%;
+    }
+    &__span {
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        
+        border: 1px #6ACD68 solid;
+
+        color: #6ACD68;
+    }
+    &__titles {
+        display: flex;
+        flex-direction: column;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 80px;
+        color: #323941;
+        text-transform: uppercase;
+        line-height: 1;
+    }
+    &__bundle {
+        padding: 20px;
+        border: 2px solid #999999;
+
+        &-title {
+            margin-bottom: 8px;
+            font-size: 18px;
+            color: #323941;
+
+            span {
+                font-weight: 700;
+            }
+        }
+        &-buttons {
+            display: flex;
+            align-items: center;
+        }
+        &-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            margin: 20px 0 10px;
+        }
+        &-prices {
+            display: flex;
+            flex-direction: column;
+            margin-right: 30px;
+
+            span {
+                font-size: 18px;
+                text-decoration-line: line-through;
+                color: #323941;
+            }
+            h3 {
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 43px;
+                color: #323941;
+            }
+        }
+        &-text {
+            font-weight: 600;
+            font-size: 18px;
+            color: #009EFF;
+
+            margin-right: 30px;
+        }
+    }
+    &__methods {
+
+        &-text {
+            display: flex;
+            align-items: center;
+
+            font-size: 18px;
+            color: #999999;
+
+            b {
+                margin: 0 5px;
+
+                display: flex;
+                align-items: center;
+                color: #009EFF;
+
+                img {
+                    margin-left: 5px
+                }
+            }
+
+            span {
+                color: #6ACD68;
+            }
+        }
+    }
+    &__buy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__img {
+        width: 50%;
+    }
+}

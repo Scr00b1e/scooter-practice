@@ -1,0 +1,36 @@
+.complect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 0 30px 0;
+
+    &__background {
+        background: linear-gradient(0deg, #EEEEEE 0%, rgba(245, 245, 245, 0.79) 43.81%, rgba(255, 255, 255, 0) 82.46%);
+        //transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    &__video {
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    &__player {
+        display: block;
+        width: 488px;
+        height: 278px;
+        margin-top: 30px;
+
+        background: #C4C4C4;
+    }
+
+    &__img {
+        position: relative;
+    }
+    &__photo {
+        position: absolute;
+        top: 0;
+        left: -25px;
+        z-index: 1;
+    }
+}
